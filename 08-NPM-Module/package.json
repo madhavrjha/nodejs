@@ -1,0 +1,14 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "Learning the NPM by Thapa Technical",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madhav R. Jha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
