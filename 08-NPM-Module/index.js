@@ -1,3 +1,5 @@
+import chalk from 'chalk';
+import validator from 'validator';
 
-//  npm init
-//  npm install chalk
+const result = validator.isEmail('madhavrjha@gmail.com');
+console.log(result ? chalk.green.inverse(result): chalk.red.inverse(result));
