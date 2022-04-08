@@ -2,7 +2,7 @@ const http = require('http');
 
 function getBooks () {
     const fs = require('fs');
-    if (fs.existsSync('./data/books1.json')) {
+    if (fs.existsSync('./data/books.json')) {
         const books = fs.readFileSync('./data/books.json', 'utf-8');
         return books;
     } else {
